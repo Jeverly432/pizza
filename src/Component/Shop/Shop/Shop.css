@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Solitreo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
+.main-shop-container {
+  background: linear-gradient(to left, #ffac12 0%, #ec9634 100%, #ff8b06 40%);
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+  background-size: 200%;
+  transition: ease-out 0.4s;
+}
+
+.main-shop-container:hover {
+  background-position: right;
+  transition: ease-out 0.4s;
+}
+.hfghgf {
+  color: white;
+}
+
+.hgfhgfghf {
+  background-color: white;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.shop-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.shop-main-container-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 5%;
+  margin-top: 5%;
+}
+
+.shop-main-container-filter-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.shop-main-container-filter-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 124px;
+}
+
+.shop-up-noActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 20px;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.shop-main-container-filter-second-elem:active {
+  top: 1px;
+  position: relative;
+}
+.shop-up-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  border-radius: 20px;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.shop-main-container-filter-second-elem-2:active {
+  top: 1px;
+  position: relative;
+}
+
+.shop-main-container-filter-three-sort {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.shop-main-container-filter-three-sort-dragDrop {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 400;
+  width: 40px;
+  cursor: pointer;
+  color: #ec9634;
+  transition: ease-out 0.3s;
+  margin-left: 4px;
+  margin-right: 20px;
+}
+
+.shop-main-container-filter-three-sort-dragDrop:hover {
+  transition: ease-out 0.3s;
+  color: #ff8b06;
+}
+
+.shop-main-container-filter-three-sort-dragDrop:active {
+  top: 1px;
+  position: relative;
+}
+
+.shop-second-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 5%;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.shop-main-container-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-second-container-all-pizza {
+  font-family: "Unbounded", cursive;
+  font-weight: 600;
+  color: black;
+  font-size: 38px;
+}
+
+.shop-main-container-border-between {
+  display: flex;
+  width: 94%;
+  height: 1px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 4%;
+  background-color: rgb(207, 207, 207);
+}
+
+.shop-main-container-section-pizza {
+  display: flex;
+  width: 98%;
+  height: 90%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shop-main-container-section-pizza-1 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.shop-main-container-section-pizza-1-img {
+  display: flex;
+  width: 330px;
+  height: 330px;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.shop-main-container-section-pizza-1-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 46px;
+  margin-bottom: 30px;
+  font-family: "Solitreo", cursive;
+}
+
+.shop-main-container-section-pizza-1-name-main-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 310px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-style-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  font-family: "Unbounded", cursive;
+  font-weight: 00;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-style-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  font-family: "Unbounded", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-size {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 310px;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-size-25 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Unbounded", cursive;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-size-30 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 90px;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Unbounded", cursive;
+}
+
+.shop-main-container-section-pizza-1-name-main-div-size-40 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 55px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Unbounded", cursive;
+}
+
+.shop-main-container-section-pizza-1-name-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 330px;
+  margin-top: 20px;
+}
+
+.shop-main-container-section-pizza-1-name-price-container-price {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-main-container-section-pizza-1-name-price-container-add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff8b06;
+  font-family: "Unbounded", cursive;
+  font-weight: 400;
+  font-size: 19px;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 7px;
+  border-radius: 30px;
+  border: 1px solid #ff8b06;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color:white;
+}
+
+.shop-main-container-section-pizza-1-name-price-container-add-to-cart:hover {
+  background: linear-gradient(to left, #ffac12 0%, #ec9634 100%, #ff8b06 40%);
+  color: white;
+}
+.shop-main-container-section-pizza-1-name-price-container-price-second {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-right: 10px;
+  font-family: "Solitreo", cursive;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.shop-main-container-section-pizza-1-name-price-container-price-three {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  bottom: 0;
+  font-family: "Solitreo", cursive;
+  font-weight: 400;
+}
+
+.shop-main-container-section-pizza-1-name-price-container-add-to-cart-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #ff8b06;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 6px;
+
+  font-size: 16px;
+}
+
+.sort-container {
+  display: flex;
+  width: 160px;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sort-popup {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 110px;
+  height: 130px;
+  margin-left: 60px;
+  margin-top: 20px;
+  position: absolute;
+  box-shadow: 1px 6px 8px rgb(0 0 0 / 30%);
+  border-radius: 20px;
+}
+
+.sort-popup-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sort-container-second {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.sort-popup-li-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ec9634;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.shop-main-container-section-pagination{
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width:1130px) {
+  .shop-main-container-filter{
+    flex-direction: column;
+  }.shop-main-container-filter-three{
+    margin-top: 20px;
+  }.shop-main-container-filter-second{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:870px) {
+  .shop-up-active{
+    width: 60px;
+  }.shop-up-noActive{
+    width: 60px;
+  }
+}
+
+@media screen and (max-width:580px) {
+  .shop-main-container-filter-second{
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .shop-main-container-section-pizza-1-img {
+    width: 250px;
+    height: 250px;
+  }
+  .shop-main-container-section-pizza-1-name-main-div {
+    width: 230px;
+  }
+  .shop-main-container-section-pizza-1-name-main-div-style {
+    width: 210px;
+  }
+  .shop-main-container-section-pizza-1-name-main-div-size {
+    width: 210px;
+  }
+  .shop-main-container-section-pizza-1-name-price-container {
+    width: 230px;
+  }
+  .shop-main-container-section-pizza-1-name-price-container-add-to-cart {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .shop-main-container-section-pizza-1-name-price-container-add-to-cart-state {
+    justify-content: space-around;
+  }.shop-main-container-section-pizza-1-name-price-container-add-to-cart-state{
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+  }
+}

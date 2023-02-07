@@ -1,0 +1,181 @@
+.article-container {
+  display: flex;
+
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+.article-container-big-img {
+  display: flex;
+  justify-content: right;
+  pointer-events: none;
+}
+
+
+
+.pizzaOutline {
+  position: absolute;
+  top: 21%;
+  left: 15%;
+  bottom: 0;
+  width: 180px;
+  height: 180px;
+  opacity: 40%;
+  pointer-events: none;
+}
+
+.pizzaOutline2 {
+  position: absolute;
+  top: -7%;
+  left: 15%;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  opacity: 30%;
+  pointer-events: none;
+}
+
+.pizzaOutline3 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  bottom: 0;
+  width: 180px;
+  height: 180px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline4 {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline5 {
+  position: absolute;
+  top: 85%;
+  left: 60%;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline6 {
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline7 {
+  position: absolute;
+  top: 5%;
+  left: 94%;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline8 {
+  position: absolute;
+  top: 46%;
+  left: 90%;
+  bottom: 0;
+  width: 220px;
+  height: 220px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline9 {
+  position: absolute;
+  top: 70%;
+  left: 87%;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline10 {
+  position: absolute;
+  top: 86%;
+  left: 92%;
+  bottom: 0;
+  width: 180px;
+  height: 180px;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.pizzaOutline11 {
+  position: absolute;
+  top: 54%;
+  left: 33%;
+  bottom: 0;
+  width: 180px;
+  height: 180px;
+  transform: rotate(-14deg);
+  pointer-events: none;
+}
+
+.pizzaOutline12 {
+  position: absolute;
+  top: 67%;
+  left: 72%;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+  transform: rotate(10deg);
+  pointer-events: none;
+}
+
+@media screen and (max-width:1330px) {
+  .article-container-big-img-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1070px) {
+  .pizzaOutline11{
+    left: 27%;
+  }
+}
+
+@media screen and (max-width:920px) {
+  .pizzaOutline6{
+    display: none;
+  }.pizzaOutline11{
+    left: 17%;
+    top: 60%;
+  }
+}
+
+@media screen and (max-width:820px) {
+  .pizzaOutline9{
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .article-container{
+    display: none;
+  }
+}

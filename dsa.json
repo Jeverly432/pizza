@@ -1,0 +1,148 @@
+[
+  {
+    "id": 0,
+    "imageURL": "./pizza.jpg",
+    "title": "Margaret",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 960,
+    "category": 4,
+    "raiting": 4
+  },
+  {
+    "id": 1,
+    "imageURL": "./pizza6.jpg",
+    "title": "Fruit",
+    "types": [
+      0
+    ],
+    "sizes": [
+      26,
+      35,
+      40
+    ],
+    "price": 803,
+    "category": 2,
+    "raiting": 3
+  },
+  {
+    "id": 2,
+    "imageURL": "./pizza3.jpg",
+    "title": "Meet",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      36
+    ],
+    "price": 920,
+    "category": 1,
+    "raiting": 4
+  },
+  {
+    "id": 3,
+    "imageURL": "./pizza4.jpg",
+    "title": "Spicy",
+    "types": [
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      60
+    ],
+    "price": 803,
+    "category": 5,
+    "raiting": 7
+  },
+  {
+    "id": 4,
+    "imageURL": "./pizza8.jpg",
+    "title": "Cheese",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      30,
+      40
+    ],
+    "price": 840,
+    "category": 1,
+    "raiting": 6
+  },
+  {
+    "id": 5,
+    "imageURL": "./pizza2.jpg",
+    "title": "Tomato",
+    "types": [
+      0
+    ],
+    "sizes": [
+      26,
+      40
+    ],
+    "price": 530,
+    "category": 3,
+    "raiting": 8
+  },
+  {
+    "id": 6,
+    "imageURL": "./pizza7.jpg",
+    "title": "Vegetable",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 476,
+    "category": 2,
+    "raiting": 10
+  },
+  {
+    "id": 7,
+    "imageURL": "./pizza5.jpg",
+    "title": "Mushroom",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30
+    ],
+    "price": 576,
+    "category": 2,
+    "raiting": 10
+  },
+  {
+    "id": 8,
+    "imageURL": "./pizza10.jpg",
+    "title": "Mix",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      45
+    ],
+    "price": 576,
+    "category": 3,
+    "raiting": 10
+  }
+]

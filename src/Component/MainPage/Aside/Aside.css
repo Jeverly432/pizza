@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-container-text-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter";
+  width: 220px;
+  height: 300px;
+  margin-left: 8vw;
+  margin-top: 10vh
+}
+
+.aside-container-text-left-pizza {
+  display: flex;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: 'Unbounded', cursive;
+}
+
+.aside-container-text-left-about-pizza {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #727272;
+}
+
+.aside-container-text-left-add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  background: linear-gradient(to left, #ff9029 40%, #ec9634 100%, #ce8600 90%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px 2px;
+  position: relative;
+  background-size: 200%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.aside-container-text-left-add-to-cart:hover {
+  background-position: right;
+}
+
+.aside-container-text-left-add-to-cart:active {
+  position: relative;
+  top: 1px;
+}
+
+.aside-container-text-left-add-to-cart-text {
+  display: flex;
+  font-family: "Inter";
+  color: white;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.aside-container-second-text-left-add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.aside-container-text-left-main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.aside-container-text-left-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.aside-container-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8vw;
+  width: 440px;
+  height: 200px;
+  padding-top: 26vh;
+}
+
+.aside-container-second-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 105px;
+  background: linear-gradient(to left, #ffb429 40%, #ec9634 100%, #fda502 40%);
+  border-radius: 50px 50px 10px 10px;
+  position: relative;
+  background-size: 200%;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.aside-container-second-first:hover {
+  background-position: right;
+}
+
+.aside-container-second-first-img1 {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.aside-container-second-first-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter";
+  color: white;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Unbounded', cursive;
+}
+
+.article-container-big-img-pizza {
+  position: absolute;
+  bottom:-450px;
+  right: -450px;
+  width: 500px;
+  height: 500px;
+  pointer-events: none;
+}
+
+
+.article-container-second-big-img-pizza{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 46%;
+  display: flex;
+}
+
+
+@media screen and (max-width:1225px) {
+    .pizzaOutline3{
+      display: none;
+    }.pizzaOutline4{
+      display: none;
+    }
+}
+
+@media screen and (max-width:1060px) {
+  .article-container-big-img-pizza{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .aside-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+  }.article-container-second-big-img-pizza{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    margin-left:-600px;
+    width: 200px;
+    height: 200px;
+  }.aside-container-text-left{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    margin-left: 5vw;
+    margin-right: 3vw;
+  }.app-container-aside-article{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }.aside-container-second{
+    margin-left: 0%;
+    width: 80%;
+    display: flex;
+    margin-top: 400px;
+  }.aside-container-text-left-about-pizza{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .aside-container-text-left-about-pizza{
+
+  }.aside-container-second{
+    width: 98%;
+  }.aside-container-second-first{
+    width: 100px;
+  }.article-container-big-img-pizza{
+    right: -370px;
+    top: 200px;
+    width: 340px;
+    height: 340px;
+  }.aside-container-second{
+    margin-top: 220px;
+  }
+}
